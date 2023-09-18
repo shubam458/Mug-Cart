@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Fraunces:opsz@9..144&family=Inter&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&family=Fraunces:opsz@9..144&family=Inter&family=Montserrat&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main {
+
+    height: 100vh;
+    width: 100%;
+
+    background-color: #f2ebe3;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+section {
+
+    width: 700px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+      
+    margin: 1em 2em;
+    border-radius: 1.5em;
+
+
+}
+
+.img-container {
+
+    height: 100%;
+    width: 45%;
+
+}
+
+.img-container img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5em 0 0 1.5em;
+}
+
+.details {
+
+    width: 45%;
+    text-align: left;
+    margin: 0.6em 2em;
+
+}
+
+.product {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #70768f;
+    letter-spacing: 5px;
+    margin: 1em 0;
+    line-height: normal;
+
+}
+
+.product-title {
+    font-size: 32px;
+    font-weight: 900;
+    font-family:"Fraunces", sans-serif;
+    margin: 0.6em 0 0.7em 0;
+    line-height: 1em;
+}
+
+.desc{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #70768f;
+    line-height: normal;
+    margin-bottom: 1.5em;
+}
+
+
+
+    .sell-price {
+        color: #35705A;
+        margin-right: 0.3em;
+    }
+
+.original-price{
+    text-decoration: line-through;
+}
+
+.btn {
+    margin: 3em 0 1em 0;
+    padding: 1em 0;
+    width: 100%;
+    background-color: #35705A;
+    border-radius: 0.7em;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btnImg {
+    margin-right: 1.5rem;
+}
+
+.btn-txt {
+    color: #fff;
+}
